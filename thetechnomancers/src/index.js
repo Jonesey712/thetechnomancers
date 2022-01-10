@@ -9,12 +9,12 @@ import mo from './images/mo_photo.jpg';
 
 function App (props) {
     return ( 
-        <BrowserRouter>
+       /* <BrowserRouter>
         <div>
             <Route component={AllPosts} path='/' exact />
             <Route component={OnePost} path='/:slug' />
         </div>
-        </BrowserRouter>
+        </BrowserRouter> */
 
         <div className='home'>
             <h1 href='/'>The Technomancers</h1>
@@ -22,12 +22,14 @@ function App (props) {
             <a href='/jones-c'>
                 <img className='picture-cj'
                     src={cj} alt='cj'
-                /> Charles Jones
+                /> 
+                <p>Charles Jones</p>
             </a>
             <a href='/jones-m'>
                 <img className='picture-mo'
                     src={mo} alt='mo'
-                /> Monique Jones
+                /> 
+                <p>Monique Jones</p>
             </a>
         </div>
     );

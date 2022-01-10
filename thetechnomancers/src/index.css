@@ -23,8 +23,9 @@ h2 {
     display: inline-block;
     height: 420px;
     width: 260px;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-right: 200px;
+    text-align: justify;
 }
 .picture-mo {
     height: 400px !important;
